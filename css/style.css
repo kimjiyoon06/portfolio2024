@@ -1,0 +1,36 @@
+.header{
+    position: fixed; width: 100%; top: 0; left: 0;
+    
+}
+.header .inner{
+    display: flex; justify-content: space-between; height: 100px; align-items: center; max-width: none;
+} 
+.header ul{
+    display: flex; justify-content: center; gap: 20px; border-bottom: 1px solid #000;
+    padding-left: 10px; padding-bottom: 10px;
+}
+.header ul li.active{
+    color: red; 
+}
+
+/* home */
+.home{
+    height: 100vh;
+    background-color: #F0F0F0;
+}
+.home .inner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: none;
+}
+.home .inner .top-circle{}
+.home .inner .btm-circle{}
+.home .inner h1{
+    font-size: 15vw;
+    font-family: "kudryashev-d-excontrast-sans", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+   
+}
