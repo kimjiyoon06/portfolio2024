@@ -1,5 +1,5 @@
 .header{
-    position: fixed; width: 100%; top: 0; left: 0;
+    position: fixed; width: 100%; top: 0; left: 0; z-index: 1;
     
 }
 .header .inner{
@@ -9,8 +9,14 @@
     display: flex; justify-content: center; gap: 20px; border-bottom: 1px solid #000;
     padding-left: 10px; padding-bottom: 10px;
 }
+.header ul li{
+    font-family: 'Metal', serif;
+    text-transform: uppercase;
+    font-size: 1.4vw; 
+    color: #000;
+}
 .header ul li.active{
-    color: red; 
+    color: #fff; 
 }
 
 /* home */
@@ -25,12 +31,63 @@
     align-items: center;
     max-width: none;
 }
-.home .inner .top-circle{}
-.home .inner .btm-circle{}
+.home .home-circle{
+    position: absolute;
+    width: 18%;
+    min-width: 300px;
+
+}
+.home .home-circle img{
+    width: 100%;
+}
+.home .inner .top-circle{
+    top: 12%; left: 11%;
+    
+}
+.home .inner .btm-circle{
+    bottom: 10%; right: 6%;
+}
 .home .inner h1{
-    font-size: 15vw;
+    font-size: 14vw;
     font-family: "kudryashev-d-excontrast-sans", sans-serif;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
+    line-height: 1.2;
+    color: #000;
    
 }
+
+/* about */
+.about{
+    padding: 10rem 0;
+}
+.about-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.about-top .about-img{
+    width: 30%;
+}
+.about-top .about-img img{
+    width: 100%;
+}
+
+.about-top p{
+   font-size: 2.2rem;
+   line-height: 1.5;
+}
+.about-btm{
+    display: left;
+    align-items: left;
+    justify-content: space-between;
+}
+.about-btm h1{}
+.about-btm p{
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+    
+

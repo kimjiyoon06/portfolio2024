@@ -5,10 +5,17 @@
 a{text-decoration: none;}
 ul,ol{list-style: none;}
 html{font-size: 10px;}
-body{font-size: 1.6rem; color: #222;}
+body{font-size: 1.6rem; color: #fff; background-color: #000;}
 /* custom  */
 .inner{
     margin: 0 auto; padding: 0 20px; width: 100%; position: relative; max-width: 1640px;
+}
+.title{
+    color: #ffa600; font-size: 3rem;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 8.5rem;
 }
 @media screen and (max-width: 1200px){
     html{font-size: 9px;}
