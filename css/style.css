@@ -60,7 +60,8 @@
 
 /* about */
 .about{
-    padding: 10rem 0;
+    padding: 15rem 0;
+   
 }
 .about-top{
     display: flex;
@@ -76,18 +77,90 @@
 }
 
 .about-top p{
-   font-size: 2.2rem;
-   line-height: 1.5;
+   line-height: 1.6;
+   
 }
+/* about 이어서 education~ */
 .about-btm{
     display: left;
     align-items: left;
     justify-content: space-between;
-}
-.about-btm h1{}
-.about-btm p{
-    font-size: 2.2rem;
-    line-height: 1.5;
-}
-    
+    padding: 15rem 0;
 
+}
+.about-btm .title{
+    
+    margin-top: 10rem;
+    padding: 2rem 0;
+}
+.about-btm ul{
+
+}
+.about-btm ul li{
+     line-height: 2;
+ }
+.about-btm-layout{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.about-btm-contents.about-skill{
+    width: 60%;  
+}
+.about-btm-contents.about-skill ul{
+    display: flex;
+}
+.about-btm-contents.about-skill ul li{width: 20%; max-width: 80px;}
+.about-btm-contents.about-skill ul li img{width: 100%;}
+.about-btm-contents.about-license{
+    width: 40%;
+    
+} 
+    
+   
+
+ /* portfolio */
+.portfolio{
+    padding: 15rem 0;
+}
+.tab-list{
+ display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;
+} 
+.tab-list li{
+padding: 0 20px; border: 1px solid #000; height: 45px;
+display: flex; align-items: center; border-radius: 30px;
+cursor: pointer;
+}
+.tab-list li.active{
+background-color: #000; color: #fff;
+}
+.tab-content{
+position: relative; margin-bottom: 20px;
+}
+.tab-content ul li .imgbox{
+position: relative; width: 55%;
+}
+.tab-content ul li .imgbox::after{
+    content: "";
+    display: block;
+    padding-bottom: 60%;
+}
+.tab-content ul li .imgbox img{
+width: 100%; position: absolute; top: 0; object-fit: cover;
+}
+.tab-content ul li{
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+.tab-content ul li .textbox{
+     width: 40%;
+}
+.tab-content ul li h1{}
+.tab-content ul li h2{
+    line-height: 10;
+}
+.tab-content ul li p{
+    line-height: 0;
+}
