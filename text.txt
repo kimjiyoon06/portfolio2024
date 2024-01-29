@@ -18,3 +18,11 @@ head 에 css/script 파일 로드하는 순서
 - 라이브러리 cdn 불러오기 
 - 직접 작성한 파일들 불러오기
 
+
+
+
+"afterEffect" : "used",
+                    "premiere" : "used",
+"illust" : "used",
+                    "html" : "used",
+                    "css" : "used"

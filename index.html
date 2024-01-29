@@ -13,16 +13,17 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/html5shiv.js"></script>
     <!-- <script src="js/prefixfree.min.js"></script> -->
-
+    
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/index.js"></script>
 </head>
 <body>
-    <header class="header">
+    <header class="header active">
         <div class="inner">
             <div class="logo">
                 <a href="#"><img src="img/home-logo-img.png" alt="지윤로고"></a>
+                <a href="#"><img src="img/about-logo-img.png" alt="지윤로고"></a>
             </div>
             <ul>
                 <li class="active"><a href="#home">home</a></li>
@@ -30,6 +31,7 @@
                 <li><a href="#portfolio">portfolio</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
+          
         </div>
 
     </header>
@@ -114,30 +116,21 @@
     <section class="portfolio" id="portfolio">
         <div class="inner">
             <div>
-             <h1 class="title section-title">PORTFOLIO</h1>
+                <h1 class="title section-title">PORTFOLIO</h1>
             </div>
 
             <ul class="tab-list">
-                <li class="active">VIDEO</li>
-                <li>WEb</li>
-            
+                <!-- json연동 -->
+                <!-- 
+                    <li class="active"><a href="javascript:;">motion</a></li>
+                -->
             </ul>
             <div class="tab-content">
                 <div class="swiper sw-work">
                     <ul class="swiper-wrapper">
-                        <!-- <li class="swiper-slide">
-                            <div class="imgbox">
-                                <img src="img/image00.png" alt="">
-                            </div>
-                            <div class="textbox">
-                                <h1>모션그래픽</h1>
-                                <p>작업기간 : 1주일</p>
-                            </div>
-        
-                        </li>  -->
+                        
                     </ul>
                 </div>
-        
             </div>
           
 
@@ -145,11 +138,31 @@
 
     </section>
     <section class="contact" id="contact">
-     <div class="inner">
-
+      <div class="inner">
+        <div class="contact-tittle">
+            <h1>CONTACT</h1>
         </div>
-
+        
+        <div class="contact-text">
+            <div class="contact-email">
+                <p>E-mail<br>
+                <span>kimjiji0522@gmail.com </span>
+              </p>
+            </div>
+            
+            <div class="contact-kako">
+                <p>KAKAOTALK</p>
+            </div>
+        </div>
+       
+      </div>
     </section>
     
+
+    <div class="modal">
+        <div class="modal-cont">
+            
+        </div>
+    </div>
 </body>
 </html>
