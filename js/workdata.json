@@ -10,49 +10,48 @@
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
                     "period":"작업기간",
                     "period2":"1주일",
-                    "photoshop" : "used"
+                    "afterEffect" : "used"
+                    
                     
                 },
                 {
-                    "videoid":"fEICI-UMoPM",
+                    "videoid":"X_PQDpmgXeE",
                     "alt":"VIDEO THUMB",
                     "title":"무빙포스터1",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "period":"1week",
-                    "tool":"에펙"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "afterEffect" : "used"
 
+                },
+                {
+                    "videoid":"X_PQDpmgXeE",
+                    "alt":"VIDEO THUMB",
+                    "title":"무빙포스터2",
+                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "afterEffect" : "used"
+
+                },
+                {
+                    "videoid":"k-uhF5LpbeA",
+                    "alt":"VIDEO THUMB",
+                    "title":"무빙포스터2",
+                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "afterEffect" : "used"
+                    
                 },
                 {
                     "videoid":"dc1c8_pX2Q0",
                     "alt":"VIDEO THUMB",
                     "title":"무빙포스터2",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "period":"1week",
-                    "tool":"에펙"
-
-                },
-                {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"VIDEO THUMB",
-                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "title":"캐릭터리깅",
-                    "period":"1week"
-                
-                },
-                {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"VIDEO THUMB",
-                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "title":"캐릭터2D",
-                    "period":"1week"
-                    
-                },
-                {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"VIDEO THUMB",
-                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "title":"자동자막 스크립트",
-                    "period":"1week"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "afterEffect" : "used"
                     
                 }
             ]
@@ -61,46 +60,58 @@
             "catename" : "촬영/편집",
             "list":[
                 {
-                    "videoid":"tdXY3BoLYDQ",
-                    "alt":"WEB THUMB",
-                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
+                    "videoid":"dc1c8_pX2Q0",
+                    "alt":"VIDEO THUMB",
                     "title":"촬영물1",
-                    "period":"1week"
-                },
-                {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"WEB THUMB",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "title":"촬영물2",
-                    "period":"1week"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "premiere" : "used"
                 },
                 {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"WEB THUMB",
+                    "videoid":"dc1c8_pX2Q0",
+                    "alt":"VIDEO THUMB",
+                    "title":"촬영물2",
+                    "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "premiere" : "used"
+                },
+                {
+                    "videoid":"dc1c8_pX2Q0",
+                    "alt":"VIDEO THUMB",
                     "title":"촬영물3",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "period":"1week"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "premiere" : "used"
                 },
                 {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"WEB THUMB",
+                    "videoid":"dc1c8_pX2Q0",
+                    "alt":"VIDEO THUMB",
                     "title":"촬영물4",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "period":"1week"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "premiere" : "used"
                 },
                 {
-                    "videoid":"DSGtcUk73CM",
-                    "alt":"WEB THUMB",
+                    "videoid":"dc1c8_pX2Q0",
+                    "alt":"VIDEO THUMB",
                     "title":"촬영물5",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "period":"1week"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "premiere" : "used"
                 },
                 {
                     "videoid":"DSGtcUk73CM",
                     "alt":"WEB THUMB",
                     "title":"촬영물6",
                     "text":"모션감을 익히기 위해 연습한 타이포그래피 모작입니다",
-                    "period":"1week"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "premiere" : "used"
                 }
             ]
         },
@@ -112,40 +123,45 @@
                     "alt":"DESIGN THUMB",
                     "title":"디자인1",
                     "text":"디자인 이미지 입니다.",
-                    "period":"1week",
-                    "tool":"에펙"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
                 },
                 {
                     "imgurl":"about-img.png",
                     "alt":"DESIGN THUMB",
                     "title":"디자인2",
                     "text":"디자인 이미지 입니다.",
-                    "period":"1week",
-                    "tool":"에펙"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
                 },
                 {
                     "imgurl":"about-img.png",
                     "alt":"DESIGN THUMB",
                     "title":"디자인3",
                     "text":"디자인 이미지 입니다.",
-                    "period":"1week",
-                    "tool":"에펙"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
                 },
                 {
                     "imgurl":"about-img.png",
                     "alt":"DESIGN THUMB",
                     "title":"디자인4",
                     "text":"디자인 이미지 입니다.",
-                    "period":"1week",
-                    "tool":"에펙"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
                 },
                 {
                     "imgurl":"about-img.png",
                     "alt":"DESIGN THUMB",
                     "title":"디자인5",
                     "text":"디자인 이미지 입니다.",
-                    "period":"1week",
-                    "tool":"에펙"
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
                 }
             ]
         }

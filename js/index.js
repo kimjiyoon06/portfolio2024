@@ -13,10 +13,6 @@ window.onload = function(){
             }
         })
     })
-    
-
-
-
 
         let modal = document.querySelector(".modal")
         let modalCont = document.querySelector(".modal-cont")
@@ -82,25 +78,22 @@ window.onload = function(){
                                 <h3>사용툴</h3>
                                 <ul class="skill-wrap">
                                     <li ${obj.afterEffect ? "style='display:block'" : "style='display:none'"}>
-                                        <img src="../img/folder_after_effects.svg" alt="">
+                                        <img src="img/Adobe-After-Effects.png" alt="">
                                     </li>
                                     <li ${obj.premiere ? "style='display:block'" : "style='display:none'"}>
-                                        <img src="../img/folder_premiere.svg" alt="">
+                                        <img src="img/Adobe-Premiere-img.png" alt="">
                                     </li>
                                     <li ${obj.css ? "style='display:block'" : "style='display:none'"}>
-                                        <img src="../img/folder_css.svg" alt="">
+                                        <img src="img/CSS-img.png" alt="">
                                     </li>
                                     <li ${obj.html ? "style='display:block'" : "style='display:none'"}>
-                                        <img src="../img/folder_html.svg" alt="">
+                                        <img src="img/HTML-img.png" alt="">
                                     </li>
                                     <li ${obj.illust ? "style='display:block'" : "style='display:none'"}>
-                                        <img src="../img/folder_illust.svg" alt="">
+                                        <img src="img/Adobe-Illustrator-img.png" alt="">
                                     </li>
                                     <li ${obj.photoshop ? "style='display:block'" : "style='display:none'"}>
                                         <img src="img/Adobe-Photoshop-img.png" alt="">
-                                    </li>
-                                    <li ${obj.git ? "style='display:block'" : "style='display:none'"}>
-                                        <img src="img.svg" alt="">
                                     </li>
                                 </ul>
                             </div>
@@ -112,6 +105,14 @@ window.onload = function(){
                             </div>
                             <div class="view-btn">
                                 <p>VIEW</p>
+                            </div>
+                        </div>
+                        <div class="modal-view">
+                            <div class="view-img" ${obj.imgurl ? "style='display:block'" : "style='display:none'"}>
+                                <img src="img/${obj.imgurl}" alt="">
+                            </div>
+                            <div class="view-player" ${obj.videoid ? "style='display:block'" : "style='display:none'"}>
+                                <iframe src="https://www.youtube.com/embed/${obj.videoid}" allowfullscreen></iframe>
                             </div>
                         </div>
                     </li>
@@ -135,14 +136,7 @@ window.onload = function(){
                 item.addEventListener("click", function(){
                     let obj = workData.work[_idx].list[index];
                     modal.classList.add("active")
-                    modalCont.innerHTML = `
-                        <div class="view-img" ${obj.imgurl ? "style='display:block'" : "style='display:none'"}>
-                            <img src="img/${obj.imgurl}" alt="">
-                        </div>
-                        <div class="view-player" ${obj.videoid ? "style='display:block'" : "style='display:none'"}>
-                            <iframe src="https://www.youtube.com/embed/${obj.videoid}" allowfullscreen></iframe>
-                        </div>
-                    `
+                    modalCont.innerHTML = item.querySelector(".modal-view").innerHTML;
                     setTimeout(function(){
                         modalCont.classList.add("active")
                     },500)

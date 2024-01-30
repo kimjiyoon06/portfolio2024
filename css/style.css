@@ -27,15 +27,28 @@ body.scrollfix{
     color: #000;
 }
 .header ul li.active{
-    color: #fff; 
+    color: #ffa600; 
 }
 
-.header.active{}
+.header.active{} 
 .header.active .logo a:first-child{
     display: none;
 }
 .header.active .logo a:last-child{
     display: block;
+}
+.header.active ul{
+    display: flex; justify-content: center; gap: 20px; border-bottom: 1px solid #fff;
+    padding-left: 10px; padding-bottom: 10px;
+}
+.header.active ul li{
+    font-family: 'Metal', serif;
+    text-transform: uppercase;
+    font-size: 1.4vw; 
+    color: #fff;
+}
+.header.active ul li.active{
+    color: #ffa600; 
 }
 /* home */
 .home{
@@ -208,8 +221,6 @@ width: 100%; height: 100%; position: absolute; top: 0; object-fit: cover;
 .tab-content ul li{
     display: flex;
     justify-content: space-between;
-   
-
 }
 .right-cont .view-btn{
     padding: 0 20px;
@@ -228,9 +239,9 @@ width: 100%; height: 100%; position: absolute; top: 0; object-fit: cover;
     color: #000;
 }
 .right-cont .view-btn p {
-    
+    font-family: "Pretendard Variable"; font-weight: 400; 
 }
-
+.tab-content ul li .modal-view{display: none;}
 /* modal 영역 */
 .modal{
     position: fixed; background-color: rgba(0,0,0,.5); top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 0; overflow: hidden; transition: 0.5s; z-index: 11;
@@ -247,14 +258,34 @@ width: 100%; height: 100%; position: absolute; top: 0; object-fit: cover;
 .modal .view-img::-webkit-scrollbar-thumb {background: #ffa600; border-radius: 10px;}
 .modal .view-img::-webkit-scrollbar-track {background: #fff; border-radius: 10px;}
 
-
+.modal-view{display: flex;}
+.modal-view .view-player{position: relative; width: 70%;}
+.modal-view .view-player::after{padding-bottom: 56.25%; content: ""; display: block;}
+.modal-view .view-player iframe{position: absolute; width: 100%; height: 100%; border: none;}
+.modal-view .info{width: 30%; background-color:#fff; padding: 30px;}
+.modal-view .info h1{font-size: 30px;}
+.modal-view .info h2{font-size: 20px;}
+.modal-view .info h3{font-size: 20px;}
 
 
 /* contact */
 .contact{
-    padding: 30rem 0;
+    padding: 30rem 0 40rem;
 }
-.contact.inner{
+.contact .inner{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    gap: 20%;
+    padding-right: 0;
+
+}
+
+.contact-tittle{
+    position: relative;
+    right: -22px;
+
 }
 .contact-tittle h1{
     font-size: 12vw;
@@ -265,9 +296,7 @@ width: 100%; height: 100%; position: absolute; top: 0; object-fit: cover;
     
   
 }
-.contact-text{
-   
-}
+
 .contact-email p{
     color: #fff; font-size: 3rem;
     font-family: "ivymode", sans-serif;

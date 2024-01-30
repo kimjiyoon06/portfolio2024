@@ -26,3 +26,57 @@ head 에 css/script 파일 로드하는 순서
 "illust" : "used",
                     "html" : "used",
                     "css" : "used"
+
+-디자인 영역, 나중에 워크데이터에 추가하기 
+            {
+            "catename" : "디자인",
+            "list":[
+                {
+                    "imgurl":"about-img.png",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인1",
+                    "text":"디자인 이미지 입니다.",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
+                },
+                {
+                    "imgurl":"about-img.png",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인2",
+                    "text":"디자인 이미지 입니다.",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
+                },
+                {
+                    "imgurl":"about-img.png",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인3",
+                    "text":"디자인 이미지 입니다.",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
+                },
+                {
+                    "imgurl":"about-img.png",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인4",
+                    "text":"디자인 이미지 입니다.",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
+                },
+                {
+                    "imgurl":"about-img.png",
+                    "alt":"DESIGN THUMB",
+                    "title":"디자인5",
+                    "text":"디자인 이미지 입니다.",
+                    "period":"작업기간",
+                    "period2":"1주일",
+                    "photoshop" : "used"
+                }
+            ]
+        }
+
+        마지막 괄호에는 콤마가 없음 . 넣으려면 콤마 넣고 뒤에 복붙하기 
