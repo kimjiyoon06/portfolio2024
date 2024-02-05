@@ -8,6 +8,9 @@ ul,ol{list-style: none;}
 html{font-size: 10px;}
 body{font-size: 2rem; color: #fff; background-color: #000;
     font-family: "Pretendard Variable"; font-weight: 100; font-style: normal;}
+body::-webkit-scrollbar{width: 5px;}
+body::-webkit-scrollbar-thumb{background-color: #fcfcfc;}
+body::-webkit-scrollbar-track{background-color: #000;}
 /* custom  */
 .inner{
     margin: 0 auto; padding: 0 20px; width: 100%; position: relative; max-width: 1640px;
