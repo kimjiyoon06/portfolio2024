@@ -31,9 +31,14 @@ window.onload = function(){
             //모바일 메뉴 버튼
             let moMenuBtn = document.querySelector(".mo-menu-btn")
             let sideMenu = document.querySelector(".side-menu")
+            let sideMenuList = document.querySelector(".side-menu ul")
             moMenuBtn.addEventListener("click", function(){
                 sideMenu.classList.toggle("active")
                 this.classList.toggle("active")
+            })
+            sideMenuList.addEventListener("click", function(){
+                sideMenu.classList.toggle("active")
+                moMenuBtn.classList.toggle("active")
             })
             window.addEventListener("resize",function(){
                 let winWidth = window.innerWidth
